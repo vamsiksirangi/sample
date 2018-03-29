@@ -31,11 +31,12 @@
     <finalName>${project.artifactId}-${project.version}</finalName>
   </build>
 
+<!--
   <distributionManagement>
      <repository>
         <id>internal</id>
         <layout>default</layout>
-        <url>//home/vamsi/.m2/repository</url>
+        <url>file://home/vamsi/.m2/repository</url>
      </repository>
-  </distributionManagement>
+  </distributionManagement> -->
 </project>

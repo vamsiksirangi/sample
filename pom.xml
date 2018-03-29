@@ -35,7 +35,7 @@
      <repository>
         <id>internal</id>
         <layout>default</layout>
-        <url>file:///home/vamsi/.m2/repository</url>
+        <url>//home/vamsi/.m2/repository</url>
      </repository>
   </distributionManagement>
 </project>

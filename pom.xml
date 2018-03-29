@@ -28,6 +28,6 @@
 
   </dependencies>
   <build>
-    <finalname>sampleProject</finalname>
+    <finalName>${project.artifactId}-${project.version}</finalName>
   </build>
 </project>

@@ -35,7 +35,7 @@
      <repository>
         <id>internal.repo</id>
         <layout>default</layout>
-        <url>file:///home/vamsi/.m2/repository/artifacts</url>
+        <url>file://home/vamsi/.m2/repository/artifacts</url>
      </repository>
   </distriutionManagement>
 </project>

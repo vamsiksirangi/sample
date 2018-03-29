@@ -36,7 +36,7 @@
      <repository>
         <id>internal</id>
         <layout>default</layout>
-        <url>file://var/lib/jenkins/.m2/repository</url>
+        <url>file://var/lib/jenkins/.m2/repository/${project.groupId}/${project.artifactId}/${project.version}</url>
      </repository>
   </distributionManagement>
 </project>

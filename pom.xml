@@ -46,9 +46,8 @@
 
   <distributionManagement>
      <repository>
-        <id>external</id>
-        <layout>default</layout>
-        <url>http://192.168.56.1:9090</url>
+        <id>internal.write</id>
+        <url>file://</url>
      </repository>
   </distributionManagement>
 </project>

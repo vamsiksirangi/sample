@@ -11,11 +11,11 @@ pipeline{
           }
        }
       
-       stage('Deploy stage'){
+       stage('Install stage'){
         
           steps{
               withMaven(maven : 'M2_HOME'){
-                 sh 'mvn deploy'
+                 sh 'mvn install'
               }
           }
        }

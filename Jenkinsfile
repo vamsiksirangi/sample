@@ -25,7 +25,7 @@ pipeline{
           steps{
              sh 'cd //home/vamsi/Vamsi/Docker'
              sh 'sudo docker build -t ubuntutom //home/vamsi/Vamsi/Docker/'
-             sh 'sudo docker run -td --name ubuntutom -p 9900:8080 -v /var/lib/jenkins/workspace/myfirstpipeline/target/:/usr/local/tomcat/apache-tomcat-8.0.51/webapps ubuntutom //bin/bash'
+             sh 'sudo docker run -td --name ubuntutom -p 5500:8080 -v /var/lib/jenkins/workspace/myfirstpipeline/target/:/usr/local/tomcat/apache-tomcat-8.0.51/webapps ubuntutom //bin/bash'
            }
          }  
     }

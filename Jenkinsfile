@@ -17,7 +17,8 @@ pipeline{
               withMaven(maven : 'M2_HOME'){
                  sh 'mvn install'
               }
-          }
+           }
+       }
        
        stage('Creating  Docker Container'){
   
@@ -27,6 +28,5 @@ pipeline{
              sh 'docker run -p 9900:8080 --name ubuntutom -v //var/lib/jenkins/workspace/myfirstpipeline/target://usr/local/tomcat/apache-tomcat-8.0.51/webapps -d ubuntutom //bin/bash'
            }
          }  
-       }
     }
 }
